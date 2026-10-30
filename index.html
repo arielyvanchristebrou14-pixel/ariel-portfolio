@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'Ariel Yvane Brou — Développeur logiciel et étudiant en Génie Logiciel.">
+  <title>Ariel Yvane Brou — Développeur logiciel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <div class="progress"></div>
+
+  <header class="header">
+    <a href="#accueil" class="logo">AB<span>.</span></a>
+    <button class="menu-btn" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#formation">Formation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Portfolio personnel</p>
+        <h1>Je construis des expériences <em>web</em> simples, modernes et utiles.</h1>
+        <p class="hero-text">
+          Je suis <strong>Ariel Yvane Brou</strong>, développeur logiciel et étudiant en Génie Logiciel,
+          passionné par la création d'applications web et de solutions numériques.
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn primary">Voir mes projets <span>↗</span></a>
+          <a href="#contact" class="btn ghost">Me contacter</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>2025</strong><span>BTS IDA</span></div>
+          <div><strong>2026</strong><span>Licence Pro</span></div>
+          <div><strong>∞</strong><span>Envie d'apprendre</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="portrait-wrap">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <img src="assets/portrait.png" alt="Portrait d'Ariel Yvane Brou">
+          <div class="floating-card card-top">
+            <span class="dot"></span>
+            Disponible pour apprendre & créer
+          </div>
+          <div class="floating-card card-bottom">
+            <small>STACK ACTUELLE</small>
+            <strong>PHP · Laravel · Blade</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section about">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span> À propos</p>
+        <h2>Un profil orienté <em>création</em> et progression.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Mon parcours est centré sur l'informatique, le développement d'applications et le génie logiciel.
+            J'aime transformer une idée en interface claire, fonctionnelle et agréable à utiliser.
+          </p>
+          <p>
+            Je travaille notamment avec Laravel, PHP, Blade, Tailwind CSS, JavaScript, MySQL et Git.
+            Je m'intéresse aussi aux API, aux systèmes de paiement, aux tableaux de bord et aux solutions
+            numériques destinées aux écoles et entreprises.
+          </p>
+          <p>
+            Mon objectif à long terme est de poursuivre mes études jusqu'au doctorat tout en développant
+            des projets concrets et réutilisables.
+          </p>
+        </div>
+        <div class="info-card reveal delay-1">
+          <div class="info-row"><span>Nom</span><strong>Ariel Yvane Brou</strong></div>
+          <div class="info-row"><span>Domaine</span><strong>Développement logiciel</strong></div>
+          <div class="info-row"><span>Spécialité</span><strong>Génie logiciel</strong></div>
+          <div class="info-row"><span>Environnement</span><strong>VS Code · XAMPP · Git</strong></div>
+          <div class="info-row"><span>Passions</span><strong>Basketball · Lecture · Jeux</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section skills">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span> Compétences</p>
+        <h2>Des bases solides, avec une <em>progression continue</em>.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="number">01</span><h3>Frontend</h3><p>HTML, CSS, Tailwind CSS et JavaScript pour créer des interfaces responsives.</p><div class="tags"><b>HTML</b><b>CSS</b><b>Tailwind</b><b>JS</b></div></article>
+        <article class="skill-card reveal delay-1"><span class="number">02</span><h3>Backend</h3><p>PHP et Laravel pour construire des applications structurées, avec authentification et logique métier.</p><div class="tags"><b>PHP</b><b>Laravel</b><b>Blade</b><b>Livewire</b></div></article>
+        <article class="skill-card reveal delay-2"><span class="number">03</span><h3>Données & outils</h3><p>Conception et utilisation de bases MySQL, gestion de versions et environnement local.</p><div class="tags"><b>MySQL</b><b>Git</b><b>VS Code</b><b>XAMPP</b></div></article>
+        <article class="skill-card reveal"><span class="number">04</span><h3>Conception</h3><p>Création de dashboards, parcours utilisateurs, maquettes et interfaces simples et professionnelles.</p><div class="tags"><b>UI/UX</b><b>Figma</b><b>Responsive</b></div></article>
+      </div>
+    </section>
+
+    <section id="projets" class="section projects">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span> Projets</p>
+        <h2>Des projets pensés pour résoudre de <em>vrais besoins</em>.</h2>
+      </div>
+      <div class="projects-list">
+        <article class="project reveal">
+          <div class="project-index">01</div>
+          <div><p class="project-type">Application web</p><h3>Gestion de formations</h3><p>Plateforme de gestion avec inscriptions, formations, paiements, tableaux de bord et rôles utilisateurs.</p><div class="tags"><b>Laravel</b><b>PHP</b><b>MySQL</b><b>Blade</b></div></div>
+        </article>
+        <article class="project reveal delay-1">
+          <div class="project-index">02</div>
+          <div><p class="project-type">Fintech / Éducation</p><h3>EcolePay — outils de gestion</h3><p>Travail autour d'interfaces de paiement, suivi des transactions, comptabilité et contrôle des reversements.</p><div class="tags"><b>Laravel</b><b>API</b><b>Dashboard</b><b>Data</b></div></div>
+        </article>
+        <article class="project reveal delay-2">
+          <div class="project-index">03</div>
+          <div><p class="project-type">Plateforme</p><h3>TPpay</h3><p>Concept de plateforme de réservation et paiement pour le transport, avec une approche simple et mobile-first.</p><div class="tags"><b>UI/UX</b><b>Transport</b><b>Payment</b></div></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-index">04</div>
+          <div><p class="project-type">Base réutilisable</p><h3>Socle Laravel</h3><p>Architecture réutilisable pour accélérer la création de futurs projets tout en conservant une base propre et cohérente.</p><div class="tags"><b>Laravel</b><b>Auth</b><b>Roles</b><b>CRUD</b></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="formation" class="section timeline-section">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span> Formation</p>
+        <h2>Un parcours qui avance <em>étape par étape</em>.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span>2020</span><div><h3>BEPC — Système général</h3><p>CMOGAS — Collège Moderne Oulai Goue Antoine de Sangouine</p></div></div>
+        <div class="timeline-item reveal"><span>2023</span><div><h3>BAC — Série D</h3><p>LYOGAS — Lycée Moderne Oulai Goue Antoine de Sangouine</p></div></div>
+        <div class="timeline-item reveal"><span>2025</span><div><h3>BTS — Informatique Développement d'Applications</h3><p>Année académique 2024–2025</p></div></div>
+        <div class="timeline-item current reveal"><span>2026</span><div><h3>Licence professionnelle — Informatique, Génie Logiciel</h3><p>GEIGE — Grande École Informatique et de Gestion d'Entreprise</p></div></div>
+      </div>
+    </section>
+
+    <section class="section github-section">
+      <div class="github-card reveal">
+        <div>
+          <p class="eyebrow"><span></span> GitHub-ready</p>
+          <h2>Un portfolio conçu pour être publié facilement.</h2>
+          <p>Ce site est 100 % statique : HTML, CSS, JavaScript et assets locaux. Il peut être déployé sur GitHub Pages sans PHP ni base de données.</p>
+        </div>
+        <div class="github-badge">GITHUB<br><strong>PAGES</strong></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow"><span></span> Contact</p>
+        <h2>Construisons quelque chose de <em>simple et utile</em>.</h2>
+        <p>Pour un projet, une collaboration ou simplement échanger autour du développement web.</p>
+        <a class="btn primary" href="mailto:contact@example.com">M'écrire un message <span>↗</span></a>
+        <p class="note">Remplace l'adresse e-mail dans <code>index.html</code> par ton adresse réelle avant publication.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Ariel Yvane Brou</span>
+    <span>Développeur logiciel · Génie Logiciel</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
